@@ -1,0 +1,137 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+html {
+  background-color: black;
+}
+header {
+  height: 178px;
+  width: 100%;
+  display: flex;
+  gap: 685px;
+  justify-content: center;
+  align-items: center;
+}
+header > div.nosotros {
+  background-color: white;
+}
+
+.nosotros {
+  display: flex;
+  width: 276px;
+  height: 68px;
+  color: black;
+  background-color: white;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.6rem;
+}
+
+.logo {
+  color: white;
+  font-size: 1rem;
+}
+
+.hero {
+  width: 100%;
+  height: 50%;
+}
+
+.hero_section {
+  overflow: hidden;
+}
+
+.proximamente {
+  display: flex;
+  width: 359px;
+  height: 68px;
+  background-color: white;
+  border-radius: 100px;
+  position: absolute;
+  top: 240px;
+  left: 45px;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.theflash_titulo {
+  color: white;
+  position: relative;
+  top: 370px;
+  left: 850px;
+}
+
+.underline-button {
+  position: relative;
+  display: inline-block;
+  border: none;
+  background: none;
+  padding: 0px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.underline-button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.underline-button:hover::after {
+  transform: scaleX(1);
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+}
+#movies {
+  padding: 60px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  color: white;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.container {
+  color: white;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  text-align: left;
+}
+
+.titlecard {
+  font-weight: bold;
+}
+
+.card > p {
+  padding-bottom: 0 px;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
