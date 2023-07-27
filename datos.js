@@ -1717,7 +1717,7 @@ function show(array) {
     container.appendChild(card);
 
     const poster = document.createElement("img");
-    poster.src = `https:/image.tmdb.org/t/p/w185${movies.poster_path}`;
+    poster.src = `https://image.tmdb.org/t/p/w185${movies.poster_path}`;
     card.appendChild(poster);
 
     const title = document.createElement("p");
