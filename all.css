@@ -7,13 +7,13 @@ html {
 }
 header {
   display: flex;
-
   justify-content: center;
   align-items: center;
   height: 178px;
   width: 100%;
   gap: 685px;
 }
+
 header > div.nosotros {
   background-color: white;
 }
