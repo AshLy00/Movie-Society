@@ -136,3 +136,9 @@ footer {
   width: 100%;
   height: 80px;
 }
+
+@media screen (max-width 400px) {
+  #movies {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
